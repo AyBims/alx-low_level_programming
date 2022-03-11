@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <math.h>
 /**
  *main - Entry point
  *Return: Always 0 (Success)
@@ -12,7 +11,7 @@ int n;
 int p;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-p = abs(n % 10);
+p = n % 10;
 if (p > 5 && n > 0)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, p);
