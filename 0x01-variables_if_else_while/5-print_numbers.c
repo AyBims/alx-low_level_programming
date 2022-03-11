@@ -7,7 +7,7 @@ int main(void)
 {
 int ch = 0;
 for (ch = 0; ch <= 9; ch++)
-putchar(ch);
-putchar('\n');
+printf("%d", ch);
+printf("\n");
 return (0);
 }
