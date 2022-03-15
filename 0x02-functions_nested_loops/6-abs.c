@@ -2,19 +2,16 @@
 /**
  *_abs - function that generates absolute value of a number
  *@n: is a number
- *Return: Always 0 (success)
+ *Return: n if positive and -n if negative (success)
  */
 int _abs(int n)
 {
 if (n < 1)
 {
-n = -1 * n;
-_putchar('n');
-return (0);
+return (-n);
 }
 else
 {
-_putchar(n);
-return ('0');
+return (n);
 }
 }
