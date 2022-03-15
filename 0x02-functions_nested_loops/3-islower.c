@@ -3,7 +3,7 @@
  *_islower - Entry point
  *@c: is an ascii character
  *_islower file checks for lower case letters
- *return: 1 if lower case
+ *Return: Always 1 if lower case (Success)
  */
 int _islower(int c)
 {
