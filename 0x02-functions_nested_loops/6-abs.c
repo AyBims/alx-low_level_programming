@@ -1,4 +1,4 @@
-$include "main.h"
+#include "main.h"
 /**
  *_abs - function that generates absolute value of a number
  *@n: is a number
