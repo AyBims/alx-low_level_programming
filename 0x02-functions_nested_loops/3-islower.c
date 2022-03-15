@@ -5,7 +5,7 @@
  */
 int _islower(int c)
 {
-while (islower(c == 1))
+if (islower(c == 1))
 return (1);
 else 
 return (0);
