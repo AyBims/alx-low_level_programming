@@ -5,7 +5,7 @@
  * @s: input string.
  * Return: Always the value of count.
  */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int count = 0;
 
