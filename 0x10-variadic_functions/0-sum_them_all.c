@@ -1,5 +1,4 @@
-#include "main.h"
-#include
+#include "variadic_functions.h"
 
 /**
  * sum_them_all - Entry point
