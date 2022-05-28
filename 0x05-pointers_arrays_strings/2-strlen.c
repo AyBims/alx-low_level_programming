@@ -1,16 +1,20 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _strlen - calculates the length of a atring
- * @s: input string.
- * Return: Always the value of count.
+ * _strlen - returns the length of a string
+ * @s: string
+ * Return: length
  */
+
 int _strlen(char *s)
 {
-	int count = 0;
+	int len = 0;
 
-	if (*(s + count) != '\0')
+	while (*s != '\0')
+	{
+		len++;
+		s++;
+	}
 
-		count++;
-	return (count);
+	return (len);
 }
